@@ -1,0 +1,38 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: gcc アクティブなファイルのビルド",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-O3",
+                "-fdiagnostics-color=always",
+                "-fopenmp", 
+                // "-g",
+                "main.cpp",
+                "graphGenerator.hpp",
+                "kraskal.hpp",
+                "Emst.cpp",
+                "dataloader.hpp",
+                "-o",
+                "main.out",
+                "-L/usr/local/include",
+                "-lfaiss",
+                "-llapack", // Add this line
+                "-lblas"    // Add this line
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "デバッガーによって生成されたタスク。"
+        }
+    ],
+    "version": "2.0.0"
+}
