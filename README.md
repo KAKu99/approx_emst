@@ -7,7 +7,7 @@ This is Approximation algorithm for the EMST(Euclidean Minimum Spanning Tree) pr
 - **Parallelizable**: The part of the algorithm that accounts for the majority of the computational workload is implemented by FAISS. This portion is parallelizable.
 ## Prerequisites (Required Libraries)
 
-List the libraries or software that need to be installed for this project to run.
+List the libraries that need to be installed for this project to run.　(This is the version used during the experiments.)
 
 - **faiss-cpu**: version 1.8.0
 - **Eigen**: version 3.4.0
