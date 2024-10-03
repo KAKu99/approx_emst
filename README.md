@@ -60,5 +60,5 @@ bash exp.sh your/data/folder/path
 ```
 
 ## License
-Copyright (c) 2023 Daichi Amagata  
-This software is released under the [MIT license](https://github.com/KAKu99/approx_emst_2024/license.txt).
+Copyright (c) 2024 Keito Kido  
+This software is released under the [MIT license](https://github.com/KAKu99/approx_emst_2024/blob/master/LICENSE.txt).
