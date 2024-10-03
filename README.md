@@ -15,7 +15,7 @@ The following libraries need to be installed for this project to run.
   
 ## Installation
 
-To install and run the project locally, follow these steps:
+To install and run the project locally, please follow the following steps:
 
 1. Clone the repository to your local machine:
     ```bash
