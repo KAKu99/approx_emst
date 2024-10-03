@@ -1,39 +1,44 @@
 ## Overview
 
-This is Approximation algorithm for the EMST(Euclidean Minimum Spanning Tree) problem. It provides features such as:
+This is an Approximation algorithm for the Euclidean Minimum Spanning Tree (EMST) problem. It offers the following features:
 
-- **For High-dimention and Million Scale Datasets**: This algorithm is designed for high-dimention. We conduct experiments on high-dimention and million scale real-world datasets.
-- **High-Quality Result**: It achieves a high-precision approximation of the EMST length and produces a structure similar to the exact result.
-- **Parallelizable**: The part of the algorithm that accounts for the majority of the computational workload is implemented by FAISS. This portion is parallelizable.
+- **For High-Dimensional and Million-Scale Datasets**: This algorithm is specifically designed for high-dimensional data and has been tested on real-world datasets with millions of data points.
+- **High-Quality Results**: It provides a high-precision approximation of the EMST length and generates a structure similar to the exact result.
+- **Parallelizable**: The computational workload, which is the most intensive part of the algorithm, is implemented using FAISS and is parallelizable.
+
 ## Prerequisites (Required Libraries)
 
-List the libraries that need to be installed for this project to run.　(This is the version used during the experiments.)
+The following libraries need to be installed for this project to run. (These are the versions used during the experiments.)
 
 - **faiss-cpu**: version 1.8.0
 - **Eigen**: version 3.4.0
   
 ## Installation
 
-Follow these steps to install and run the project locally.
+To install and run the project locally, follow these steps:
 
 1. Clone the repository to your local machine:
     ```bash
     git clone https://github.com/KAKu99/approx_emst_2024.git
     ```
 
-2. Navigate into the project directory:
+2. Navigate to the project directory:
     ```bash
     cd approx_emst_2024
     ```
-3. Build
+
+3. Build the project:
    ```bash
    mkdir build
    cd build
    cmake ..
    make
    ```
+
 ## Usage
-The data folder structure. Each dataset must be prepared beforehand.
+
+The data folder structure should be as follows. Each dataset must be prepared beforehand.
+
 ```bash
   ─── data/ # Directory for input datasets. Please input this path to exp.sh. 
    ├── fasttext/
@@ -46,10 +51,10 @@ The data folder structure. Each dataset must be prepared beforehand.
    └── sift/
      └── sift_base.fvecs
 ```
-This is example command. You can change settings in 'exp.sh'.
+
+Here's an example command. You can adjust the settings in 'exp.sh'.
+
 ```bash
 # Example command to run the project
 bash exp.sh your/data/folder/path
 ```
-
-
