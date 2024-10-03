@@ -1,14 +1,14 @@
 ## Overview
 
-This is an Approximation algorithm for the Euclidean Minimum Spanning Tree (EMST) problem. It offers the following features:
+This is an approximation algorithm for the Euclidean Minimum Spanning Tree (EMST) problem. It has the following features:
 
-- **For High-Dimensional and Million-Scale Datasets**: This algorithm is specifically designed for high-dimensional data and has been tested on real-world datasets with millions of data points.
-- **High-Quality Results**: It provides a high-precision approximation of the EMST length and generates a structure similar to the exact result.
+- **For high-dimensional large datasets**: This algorithm is specifically designed for high-dimensional data and has been tested on real-world datasets with millions of data points.
+- **High-quality results**: It provides a high-recall approximation of the EMST length and generates a structure similar to the exact result.
 - **Parallelizable**: The computational workload, which is the most intensive part of the algorithm, is implemented using FAISS and is parallelizable.
 
-## Prerequisites (Required Libraries)
+## Prerequisites (Required libraries)
 
-The following libraries need to be installed for this project to run. (These are the versions used during the experiments.)
+The following libraries need to be installed for this project to run.
 
 - **faiss-cpu**: version 1.8.0
 - **Eigen**: version 3.4.0
@@ -58,3 +58,7 @@ Here's an example command. You can adjust the settings in 'exp.sh'.
 # Example command to run the project
 bash exp.sh your/data/folder/path
 ```
+
+## License
+Copyright (c) 2023 Daichi Amagata  
+This software is released under the [MIT license](https://github.com/KAKu99/approx_emst_2024/license.txt).
