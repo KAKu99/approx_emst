@@ -35,7 +35,7 @@ echo "percent: $percent"
 echo "k: $k"
 echo "#threads(0 means max size): $threads"
 
-# timeout 2h ./main.out $dataset >> $output_file
+# timeout 2h ./main.out $data_folder_path $dataset $percent $k $threads >> $output_file
 ./main.out $data_folder_path $dataset $percent $k $threads >> $output_file
 
 # gey exit status of the command
