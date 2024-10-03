@@ -38,7 +38,7 @@ echo "#threads(0 means max size): $threads"
 # timeout 2h ./main.out $data_folder_path $dataset $percent $k $threads >> $output_file
 ./main.out $data_folder_path $dataset $percent $k $threads >> $output_file
 
-# gey exit status of the command
+# get exit status of the command
 exit_status=$?
 
 # judge by status
