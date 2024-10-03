@@ -11,7 +11,7 @@ This is an approximation algorithm for the Euclidean Minimum Spanning Tree (EMST
 The following libraries need to be installed for this project to run.
 
 - **[faiss-cpu](https://github.com/facebookresearch/faiss)**: version 1.8.0
-- **Eigen**: version 3.4.0
+- **[Eigen](https://eigen.tuxfamily.org/index.php?title=Main_Page)**: version 3.4.0
   
 ## Installation
 
