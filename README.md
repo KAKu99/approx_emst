@@ -1,3 +1,7 @@
+## Introduction
+* This repository provides implementations of our algorithms for the EMST problem for high-dimensional large datasets.
+* For details, please read our [paper](). A longer version is [here]().
+
 ## Overview
 
 This is an approximation algorithm for the Euclidean Minimum Spanning Tree (EMST) problem. It has the following features:
@@ -58,6 +62,18 @@ Here's an example command. You can adjust the settings in 'exp.sh'.
 # Example command to run the project
 bash exp.sh your/data/folder/path
 ```
+## Citation
+If you use our implementation, please cite the following paper.
+```bash
+@inproceedings{kido2025emst,
+    title={None},  
+    author={Kido, Keito, Amagata, Daichi and Hara, Takahiro},  
+    booktitle={None},  
+    pages={None},  
+    year={None}  
+}
+```
+
 
 ## License
 Copyright (c) 2024 Keito Kido  
