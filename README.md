@@ -1,7 +1,6 @@
 ## Introduction
 * This repository provides implementations of our algorithms for the EMST problem for high-dimensional large datasets.
-* For details, please read our [paper](). A longer version is [here]().
-
+* For details, please read our [paper]().
 ## Overview
 
 This is an approximation algorithm for the Euclidean Minimum Spanning Tree (EMST) problem. It has the following features:
