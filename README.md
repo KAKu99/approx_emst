@@ -67,7 +67,7 @@ If you use our implementation, please cite the following paper.
 ```bash
 @inproceedings{kido2025emst,
     title={None},  
-    author={Kido, Keito, Amagata, Daichi and Hara, Takahiro},  
+    author={Kido, Keito and Amagata, Daichi and Hara, Takahiro},  
     booktitle={None},  
     pages={None},  
     year={None}  
