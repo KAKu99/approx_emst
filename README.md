@@ -1,5 +1,5 @@
 ## Introduction
-* This repository provides implementations of our algorithms for the EMST problem for high-dimensional large datasets.
+* This repository provides implementations of our algorithms for the EMST problem on high-dimensional, large scale datasets.
 * For details, please read our [paper]().
 ## Overview
 
